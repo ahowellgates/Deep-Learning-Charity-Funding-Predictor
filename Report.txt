@@ -1,0 +1,15 @@
+Report on Charity Funding Predictor
+
+1. Overview
+The purpose of this analysis was to design a neural network model creating a binary classification that predicts whether the Alphabet Soup-funded charity applicants will be successful or not. 
+
+2. Results
+--Data Preprocessing
+The target variable of the model was the column "is_successful" meaning whether the funding of Alphabet Soup is (1)Successfull or (0)not. The features used in this model were included "application type" and "classification." The input data that was removed included "EIN" and "NAME" as they were deemed unnecessary. 
+
+--Compiling, Training, and Evaluating the Model
+Number of neurons, layers, and activation function selected for the neural networks were as follows: The accuracy rate of the best model (#3) was slightly under the target rate of 75% at 72.6%. Trial and error to add more neurons and layers and different configurations of activation functions were attemped in order to increase the model performance. 
+
+
+3. Summary
+In summary, it can be concluded that it is recommended for a deep learning model to have multiple layers and large enough number of neurons and the right activation functions in order to reach desired accuracy for a binary classification model. 
